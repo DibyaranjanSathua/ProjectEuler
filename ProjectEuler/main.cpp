@@ -13,6 +13,8 @@
 #include "problem2.hpp"
 #include "problem3.hpp"
 #include "problem4.hpp"
+#include "problem5.hpp"
+#include "problem6.hpp"
 
 using namespace std;
 
@@ -40,9 +42,16 @@ int main(int argc, const char * argv[]) {
 //    cout << P3::findSolution3(600851475143) << endl;
     
     ////////////////////////  Problem 4 ////////////////////////////////////
-    cout << P4::findSolution4(800000) << endl;
+//    cout << P4::findSolution4(999999) << endl;
 //    cout << P4::checkFactorProduct(101101) << endl;
     
+    
+    ////////////////////////  Problem 5 ////////////////////////////////////
+//    cout << P5::findLCM(5) << endl;
+//    cout << P5::findSolution5(20) << endl;
+    
+    ////////////////////////  Problem 6 ////////////////////////////////////
+    cout << P6::findSolution6(100) << endl;
     return 0;
 }
 
