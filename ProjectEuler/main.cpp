@@ -15,6 +15,7 @@
 #include "problem4.hpp"
 #include "problem5.hpp"
 #include "problem6.hpp"
+#include "problem7.hpp"
 
 using namespace std;
 
@@ -51,7 +52,13 @@ int main(int argc, const char * argv[]) {
 //    cout << P5::findSolution5(20) << endl;
     
     ////////////////////////  Problem 6 ////////////////////////////////////
-    cout << P6::findSolution6(100) << endl;
+//    cout << P6::findSolution6(100) << endl;
+    
+    
+    ////////////////////////  Problem 7 ///////////////////////////////////
+    vector<long> primes;
+    P7::findNPrimes(10000, primes);
+    cout << P7::findSolution7(5, primes) << endl;
     return 0;
 }
 
